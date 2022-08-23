@@ -4,29 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles2.css" />
     <title>calculadora</title>
 </head>
 <body>
+    <center><h1>Calculadora</h1></center>
         <form class="form-ejercicios">
             <div class="group-form">
-                <label for="num1" class="form-label">Ingresa un número</label>
+                <label for="num1" class="form-label">Ingresa un número:</label>
                 <input type="number" class="form-control" id="num1">
             </div>
             <div class="group-form">
-                <label for="num2" class="form-label">Ingresa otro número</label>
+                <label for="num2" class="form-label">Ingresa otro número:</label><br>
                 <input type="number" class="form-control" id="num2">
             </div>
             <div class="group-form">
                 <label>Seleccione una operacion</label>
                 <select class="form-select" id="operacion">
-                    <option selected>Seleccioine una operacion</option>
+                    <option selected>Seleccione una operacion</option>
                     <option value>Suma</option>
                     <option value>Resta</option>
                     <option value>Multiplicación</option>
                     <option value>Divisón</option>
                 </select>
             </div>
-                <button type="submit" class="btn-azul" onclick="calcular()">Calcular</button>
+                <button type="submit" class="button" onclick="calcular()">Calcular</button>
         </form>
 
 

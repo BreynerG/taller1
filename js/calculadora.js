@@ -17,5 +17,4 @@ function calcular(){
     } else {
         alert("No seleccionaste un numero")
     }
-
 }

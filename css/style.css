@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 8;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background: url('../img/fondo.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color:#333
+}
+p {
+    padding: 10px;
+}
+#wrapper {
+    margin: 0 auto;
+    width: 1500px;
+}
+#wrappe {
+  margin: 1000 auto;
+  width: 1000px;
+}
+#content {
+    float: left;
+    background: #FFFFFF;
+    width: 850px;
+}
+#leftcolumn {
+    width: 150px;
+    float: left;
+}
+.testbutton {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255) !important;
+    font-size: 17px;
+    text-shadow: 1px 1px 0px #000000;
+    box-shadow: 3px 4px 7px rgb(47, 0, 255);
+    padding: 9px 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(183, 0, 255);
+    background: #ff00ff;
+    background: linear-gradient(to top, #ff008c, #000000);
+}
+.testbutton:hover {
+    color: #000000 !important;
+    background: #ffffff;
+    background: linear-gradient(to top, rgb(250, 10, 190), #3700ff);
+    font-size: 20px;
+}
+.b{
+    color: white;
+    text-decoration: none
+}
+.container-fluid{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.container-fluid:hover a{
+    color: #ff008c;
+}
+img{
+    border-radius: 1rem;
+}
+.v{
+    padding: 9px 30px;
+}
