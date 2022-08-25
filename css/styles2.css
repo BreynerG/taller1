@@ -53,3 +53,6 @@ label{
     margin: 4px 2px;
     cursor: pointer;
 }
+#ops{
+    border: 10px solid #000000;
+}

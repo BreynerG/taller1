@@ -18,7 +18,7 @@ p {
 }
 #wrapper {
     margin: 0 auto;
-    width: 1500px;
+    width: 150px;
 }
 #wrappe {
   margin: 1000 auto;
@@ -66,5 +66,5 @@ img{
     border-radius: 1rem;
 }
 .v{
-    padding: 9px 30px;
+    padding: 9px 100px;
 }

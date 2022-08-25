@@ -1,4 +1,32 @@
+const btn=document.getElementById("button");
+const ops=document.getElementById("ops");
+const rta=document.getElementById("respuesta");
+
+if(e.target.id==suma){
+    let text=`<p>
+<img src="img/accept.png">
+</p>
+`
+rta.innerHTML=texto;
+} else if(e.target.id==resta) {
+    let text=`<p>
+<img src="img/cross.png">
+</p>
+`
+rta.innerHTML=texto;
+}
+
+ops.addEventListener('click',(e)=>{
+    e.preventDefault();
+    console.log(e.target);
+    consol.log(e.target.id)
+    let o=document.getElementById("ops").value;
+}) 
+
+
+
 function calcular(){
+    btn.addEventListener('click', calcular);
     let num1=parseInt(document.getElementById("num1").value);
     let num2=parseInt(document.getElementById("num2").value);
     let op=document.getElementById("operacion").value;
