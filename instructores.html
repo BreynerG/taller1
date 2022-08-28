@@ -1,60 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="css/styles2.css" />
-    <title>Instructores </title>
+    <script src="https://kit.fontawesome.com/b262621bfc.js" crossorigin="anonymous"></script>
+    <title>Instructores</title>
 </head>
+
 <body>
+    <center>
+        <h1>Instructores</h1>
+    </center>
 
-    <center><h1>Instructores</h1></center>
-        <form class="form-ejercicios">
-            <div class="group-form">
-                <label>Nombres instructores:</label>
-                <select class="form-select" id="operacion">
-                    <option selected>Selecciona una opcion:</option>
-                    <option value>Yaneth</option>
-                    <option value>Carolina</option>
-                    <option value>Adriana</option>
-                    <option value>Jennifer</option>
-                    <option value>Sandra</option>
-                    <option value>Andrea</option>
-                    <option value>Cristian</option>
-                </select>
-            </div>
-            <div class="group-form">
-                <label>Apellidos instructores:</label>
-                <select class="form-select" id="operacion">
-                    <option selected>Selecciona una opcion:</option>
-                    <option value>Castillo</option>
-                    <option value>Forero</option>
-                    <option value>Duarte</option>
-                    <option value>Fajardo</option>
-                    <option value>Rueda</option>
-                    <option value>Ramos</option>
-                    <option value>Buitrago</option>
-                </select>
-            </div>
-            <div class="group-form">
-                <label>Orientacion:</label>
-                <select class="form-select" id="operacion">
-                    <option selected>Selecciona una opcion:</option>
-                    <option value>Gestion Ambiental</option>
-                    <option value>Seg proyecto</option>
-                    <option value>Diseño frontEnd</option>
-                    <option value>Javascript</option>
-                    <option value>Bases de datos</option>
-                    <option value>Promover</option>
-                    <option value>Php</option>
-                </select>
-            </div>
+    <form class="form-ejercicios">
+        <div class="group-form">
+            <label>Nombres instructores:</label>
+            <select class="form-select" id="name">
+                <option selected>Selecciona una opcion:</option>
+                <option value="1">Yaneth</option>
+                <option value="2">Carolina</option>
+                <option value="3">Adriana</option>
+                <option value="4">Jennifer</option>
+                <option value="5">Sandra</option>
+                <option value="6">Andrea</option>
+                <option value="7">Cristian</option>
+            </select>
+        </div>
 
-                <button type="submit" class="button" id="button">Calcular</button>
-        </form>
+        <div class="group-form">
+            <label>Apellidos instructores:</label>
+            <select class="form-select" id="apellido">
+                <option selected>Selecciona una opcion:</option>
+                <option value="1">Castillo</option>
+                <option value="2">Forero</option>
+                <option value="3">Duarte</option>
+                <option value="4">Fajardo</option>
+                <option value="5">Rueda</option>
+                <option value="6">Ramos</option>
+                <option value="7">Buitrago</option>
+            </select>
+        </div>
 
-        <script src="js/taller1/triangulo.js"></script>
+        <div class="group-form">
+            <label>Orientacion:</label>
+            <select class="form-select" id="actividad">
+                <option selected>Selecciona una opcion:</option>
+                <option value="1">Gestion Ambiental</option>
+                <option value="2">Seg proyecto</option>
+                <option value="3">Diseño frontEnd</option>
+                <option value="4">Javascript</option>
+                <option value="5">Bases de datos</option>
+                <option value="6">Promover</option>
+                <option value="7">Php</option>
+            </select>
+        </div>
 
+        <div id="ops">
+            <button id="Verificar" class="button">Enviar</button>
+        </div>
+        <div id="respuesta"></div>
+    </form>
+
+    <script src="js/taller1/instructores.js"></script>
 </body>
+
 </html>

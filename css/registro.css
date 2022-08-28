@@ -5,7 +5,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: none;
     box-sizing: border-box;
-    padding: 8rem;
+    padding: 2rem;
     background: url('../img/fondo.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -63,34 +63,11 @@ label{
     margin: 4px 2px;
     cursor: pointer;
 }
-
-#pr{
-    background-color: transparent;
+#ops{
+    border: 10px solid #000000;
 }
-#name{
-    width: 100%;
-    padding: 5px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    outline: none;
-    border: 2px solid #ff008c;
-    border-radius: 4px;
-}
-#apellido{
-    width: 100%;
-    padding: 5px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    outline: none;
-    border: 2px solid #ff008c;
-    border-radius: 4px;
-}
-#actividad{
-    width: 100%;
-    padding: 5px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    outline: none;
-    border: 2px solid #ff008c;
-    border-radius: 4px;
+#brrr{
+    position: relative;
+    float: left;
+    width: 25%;
 }
