@@ -9,31 +9,32 @@
 </head>
 <body>
     <center><h1>Calculadora</h1></center>
-        <form class="form-ejercicios">
+
+        <form class="form-ejercicios" action="">
             <div class="group-form">
-                <label for="num1" class="form-label">Ingresa un número:</label>
+                <label for="" class="form-label">Ingresa un número:</label>
                 <input type="number" class="form-control" id="num1">
             </div>
             <div class="group-form">
-                <label for="num2" class="form-label">Ingresa otro número:</label><br>
+                <label for="" class="form-label">Ingresa otro número:</label><br>
                 <input type="number" class="form-control" id="num2">
             </div>
             <div class="group-form">
-                <label>Seleccione una operacion</label>
+                <label for="" id="label">Seleccione una operacion</label>
                 <select class="form-select" id="operacion">
                     <option selected>Seleccione una operacion</option>
-                    <option value>Suma</option>
-                    <option value>Resta</option>
-                    <option value>Multiplicación</option>
-                    <option value>Divisón</option>
+                    <option value="1">Suma</option>
+                    <option value="2">Resta</option>
+                    <option value="3">Multiplicación</option>
+                    <option value="4">Divisón</option>
                 </select>
             </div>
-                <button type="submit" class="button" id="button">Calcular</button>
+                <button type="submit" class="button" id="btn">Calcular</button>
         </form>
 
         <div id="ops">
-            <button id="btnsuma">Suma</button>
-            <button id="btnresta">Resta</button>
+            <button id="Sumar">Suma</button>
+            <button id="Restar">Resta</button>
         </div>
 
         <div id="respuesta" class="respuesta">

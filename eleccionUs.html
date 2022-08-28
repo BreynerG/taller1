@@ -9,23 +9,28 @@
 </head>
 <body>
 
-    <center><h1>Eleccion</h1></center>
-        <form class="form-ejercicios">
+    <center><h1>Palabra</h1></center>
+
+
+        <form class="form-ejercicios" action="">
+
             <div class="group-form">
-                <label for="text1" class="form-label">Ingresa una palabra:</label>
-                <input type="text" class="form-control" id="text1">
+                <label for="text1" id="label" class="form-label">Ingresa una palabra:</label>
+                <input type="text"  id="text1">
             </div>
+
             <div class="group-form">
-                <label>Que deseas hacer:</label>
-                <select class="form-select" id="operacion">
+                <label for="operacion">Que deseas hacer:</label>
+
+                <select name="operacion" id="operacion">
                     <option selected>Seleccione una operacion</option>
-                    <option value>La longitud de la palabra</option>
-                    <option value>La palabra convertida en mayúsculas</option>
-                    <option value>La palabra convertida en minúsculas</option>
-                    <option value>El primer carácter de la palabra</option>
+                    <option value="1">La longitud de la palabra</option>
+                    <option value="2">La palabra convertida en mayúsculas</option>
+                    <option value="3">La palabra convertida en minúsculas</option>
+                    <option value="4">El primer carácter de la palabra</option>
                 </select>
             </div>
-                <button type="submit" class="button" id="button">Calcular</button>
+                <button type="submit" onclick="palabra()" class="button">Calcular</button>
         </form>
 
         <script src="js/taller1/caracteres.js"></script>
