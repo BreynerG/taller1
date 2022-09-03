@@ -94,4 +94,12 @@ label{
     border: 2px solid #ff008c;
     border-radius: 4px;
 }
-
+#operacion2{
+    width: 100%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+    border: 2px solid #ff008c;
+    border-radius: 4px;
+}
